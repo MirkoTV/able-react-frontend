@@ -46,3 +46,11 @@ You can check the status of the Docker containers by running:
 docker ps
 ```
 By default, the application will run on port 3000 ( https://localhost:3000)
+
+
+-------------------------
+**My Own Notes:**
+
+# To run tests:
+To go inside the container: docker exec -it <container id> /bin/sh
+Inside the container: npm run test

@@ -12,6 +12,17 @@ code {
     monospace;
 }
 
+.highlighted-item {
+  background-color: blue;
+  color: white;
+}
+
+.selected-movies-list {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
